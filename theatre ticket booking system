@@ -15,6 +15,8 @@
 Total: 5 to 7 members
 6. Features
 For Audience:
+    • Sign-up page
+    • login page
     • Browse movies premier on theatre
     • Real-time seat selection
     • Instant booking confirmation
@@ -22,8 +24,6 @@ For Audience:
     • Multiple shows per screen/day
     • Choose by language, genre, (2D/3D)
     • Multiple payment modes (UPI, credit/debit cards, net banking, wallets)
-    • Sign-up page
-    • login page
     • Booking history and e-tickets
     • Show cancellation or change alerts
 For Admin:
