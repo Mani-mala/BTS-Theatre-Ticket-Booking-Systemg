@@ -21,3 +21,41 @@ class AdminLogin:
     String name;
     String username;
     String password;
+
+class Theatre :
+-------------
+    String theatreId;
+    String name;
+    String location;
+    List<Screen> screens;
+
+class Screen :
+------------
+    String screenId;
+    String name;
+    int totalSeats;
+    List<Show> shows;
+
+class Movie :
+-----------
+    String movieId;
+    String title;
+    String language;
+    String genre;
+    boolean is3D;
+    int durationMinutes;
+    String description;
+
+lass Show :
+---------
+    String showId;
+    String movieId;
+    LocalDate showDate;
+    LocalTime startTime;
+    LocalTime endTime;
+    String screenId;
+    double basePrice;
+    boolean isCancelled;
+    List<Seat> seats;
+
+
