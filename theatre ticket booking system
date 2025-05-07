@@ -23,13 +23,12 @@ For Audience:
     • View daily and weekly schedules
     • Multiple shows per screen/day
     • Choose by language, genre, (2D/3D)
-    • Multiple payment modes (UPI, credit/debit cards, net banking, wallets)
+    • Multiple payment modes (UPI, credit/debit cards, net banking)
     • Booking history and e-tickets
     • Show cancellation or change alerts
 For Admin:
     • Add/Edit/Delete shows, screens, and pricing
     • View bookings and financial reports
-    • Manage promotions and offers
     • Show cancellation or change alerts
 7. Future Implementation
     • Voice Command Booking – Integrate voice assistants for hands-free booking
