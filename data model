@@ -46,7 +46,7 @@ class Movie :
     int durationMinutes;
     String description;
 
-lass Show :
+class Show :
 ---------
     String showId;
     String movieId;
