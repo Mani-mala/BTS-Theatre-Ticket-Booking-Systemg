@@ -1,8 +1,23 @@
-class User :
-----------
+class Registration :
+------------------
+    String memberId;
+    String username;
+    String password;
+    String confirmPassword;
+    String role;
+
+class UserLogin :
+---------------
     String userId;
     String name;
     String email;
     String phone;
     String password;
     List<Booking> bookingHistory;
+
+class AdminLogin:
+----------------
+    String adminId;
+    String name;
+    String username;
+    String password;
