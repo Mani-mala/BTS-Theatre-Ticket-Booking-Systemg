@@ -83,10 +83,35 @@ class Notification :
     LocalDateTime sentTime;
     boolean isRead;
 
+Search :
+------
+    String movieTitle;
+    String language;
+    String genre;
+    String location;
+    LocalDate showDate;
+
 class Schedule :
 --------------
     LocalDate date;
     List<Show> shows;
+
+class Payment :
+-------------
+    public int paymentID;
+    public int bookingID;
+    public float amount;
+    public String paymentMethod;   
+    public String paymentStatus;   
+    public LocalDateTime paymentDate;
+
+class Cancellation :
+------------------
+    public int cancellationID;
+    public int bookingID;
+    public LocalDateTime cancelledOn;
+    public float refundAmount;
+    public String refundStatus; 
 
 List<UserLogin> userList = new ArrayList<>();
 List<AdminLogin> adminList = new ArrayList<>();
